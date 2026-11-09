@@ -72,6 +72,11 @@ Future Improvements
 Feature engineering: extract Title (Mr, Mrs, Miss) from names and add FamilySize
 Hyperparameter search with GridSearchCV
 Try Gradient Boosting or XGBoost
-Author
 
-Your name · your LinkedIn / GitHub link
+**Author**
+
+Your name :Javeria Noman
+
+LinkedIn : www.linkedin.com/in/javeria-noman
+
+GitHub : https://github.com/Javeria-Noman
