@@ -10,6 +10,7 @@ Model: Random Forest (tuned), compared against Logistic Regression
 App: Flask backend + custom HTML/CSS/JS frontend
 
 **Workflow**
+
 Explore the data: survival rate by gender and class, missing values
 Clean and preprocess
 Dropped PassengerId, Name, Ticket, Cabin (identifiers or mostly empty)
@@ -20,7 +21,9 @@ Train: Logistic Regression (baseline) and Random Forest
 Evaluate: accuracy, confusion matrix, classification report, 5-fold cross-validation
 Tune: limited tree depth to reduce overfitting
 Deploy: saved the model with joblib and built a Flask web app
+
 **Results**
+
 Model	Train accuracy	Test accuracy	5-fold CV
 Random Forest (default)	98.2%	81.0%	80.9%
 Random Forest (tuned: max_depth=5, min_samples_leaf=3)	86.2%	79.9%	81.6%
@@ -30,6 +33,7 @@ The default Random Forest overfit (17% gap between train and test). Restricting 
 Key insight: gender and ticket class are the strongest predictors, which matches the historical "women and children first" evacuation rule.
 
 **Project Structure**
+
 ├── Titanic Survival.ipynb   # data cleaning, training, evaluation
 ├── train.csv                # Kaggle dataset
 ├── app.py                   # Flask backend
@@ -37,6 +41,7 @@ Key insight: gender and ticket class are the strongest predictors, which matches
 ├── requirements.txt
 └── templates/
     └── index.html           # frontend
+
 Run Locally
 bash
 git clone <your-repo-url>
