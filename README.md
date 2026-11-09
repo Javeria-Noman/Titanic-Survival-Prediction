@@ -34,19 +34,18 @@ Key insight: gender and ticket class are the strongest predictors, which matches
 
 **Project Structure**
 
-├── Titanic Survival.ipynb   # data cleaning, training, evaluation
+├── Titanic Survival.ipynb     # data cleaning, training, evaluation
 
-├── train.csv                # Kaggle dataset
+├── train.csv                  # Kaggle dataset
 
-├── app.py                   # Flask backend
+├── app.py                     # Flask backend
 
-├── titanic_model.pkl        # saved model + column order
+├── titanic_model.pkl          # saved model + column order
 
 ├── requirements.txt
 
 └── templates/
-
-    └── index.html           # frontend
+    └── index.html             # frontend
 
 Run Locally
 bash
