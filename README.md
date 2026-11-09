@@ -56,9 +56,9 @@ Key insight: gender and ticket class are the strongest predictors, which matches
 
 1.bash
 
-2.git clone <your-repo-url>
+2.git clone <https://github.com/Javeria-Noman/Titanic-Survival-Prediction.git>
 
-3.cd <your-repo-folder>
+3.cd <https://github.com/Javeria-Noman/Titanic-Survival-Prediction>
 
 4.pip install -r requirements.txt
 
