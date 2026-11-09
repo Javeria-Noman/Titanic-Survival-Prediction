@@ -3,10 +3,12 @@
 A machine learning project that predicts whether a Titanic passenger would have survived, based on details like gender, age, ticket class and fare. The trained model is served through a Flask web app with an interactive, ship-themed interface.
 
 **Overview**
+
 Task: Binary classification (1 = survived, 0 = did not survive)
 Dataset: Titanic - Machine Learning from Disaster (Kaggle), 891 passengers in train.csv
 Model: Random Forest (tuned), compared against Logistic Regression
 App: Flask backend + custom HTML/CSS/JS frontend
+
 **Workflow**
 Explore the data: survival rate by gender and class, missing values
 Clean and preprocess
@@ -27,7 +29,7 @@ The default Random Forest overfit (17% gap between train and test). Restricting 
 
 Key insight: gender and ticket class are the strongest predictors, which matches the historical "women and children first" evacuation rule.
 
-Project Structure
+**Project Structure**
 ├── Titanic Survival.ipynb   # data cleaning, training, evaluation
 ├── train.csv                # Kaggle dataset
 ├── app.py                   # Flask backend
